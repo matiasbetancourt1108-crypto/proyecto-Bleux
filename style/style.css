@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E172F;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav div ul{
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.download-nav{
+    height: 38px;
+    width: 100px;
+
+    background: linear-gradient(to right, #8640D5, #485ED5, #057ED5);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+/*1RA SECCION*/
+
+.firstSec{
+    display: flex;
+    background-color: #2E2550;
+    color: white;
+    
+}
+h1{
+    font-size: 100px;
+}
+p{
+    font-size: 25px;
+}
+.info1{
+    width: 50%;
+    height: 761px;
+    padding-left: 200px;
+    padding-right: 20px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+.img1{
+    width: 50%;
+    background-image: url(../assets/images/hojasFondo.jpg);
+    padding-left: 150px;
+    padding-top: 170px;
+}
+
+.img1 img{
+    height: 430px;
+}
+
+.buttons1{
+    border: 3px solid #74747470;
+    border-radius: 4px;
+    padding: 10px;
+    width: 360px;
+    height: 72px;
+}
+.btn-DLN{
+    width: 170px;
+    height: 50px;
+
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    color: #F41486;
+    font-weight: 600;
+    background-color: white;
+}
+.btn-F{
+    width: 160px;
+    height: 50px;
+
+    font-size: 15px;
+    border-radius: 4px;
+    background-color:#2E2550;
+    color: white;
+    border-color: white;
+}
