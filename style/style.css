@@ -90,6 +90,12 @@ p{
     color: #F41486;
     font-weight: 600;
     background-color: white;
+    transition: 0.2s ease;
+}
+.btn-DLN:hover{
+    transition: 0.2s ease;
+    background-color: #F41486;
+    color: white;
 }
 .btn-F{
     width: 160px;
@@ -100,4 +106,219 @@ p{
     background-color:#2E2550;
     color: white;
     border-color: white;
+    transition: 0.2s ease;
+}
+.btn-F:hover{
+    transition: 0.2s ease;
+    background-color: white;
+    color: black;
+}
+
+/*2DA SECCION*/
+
+.secondSec{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #F1F2F7;
+}
+
+h2{
+    font-size: 70px;
+    text-align: center;
+}
+.title-secondSec{
+    color: #F41486;
+}
+
+.dist{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    gap: 140px;
+}
+.img2{
+    width: 50%;
+    padding-left: 250px;
+}
+.info2{
+    width: 50%;
+    padding-right: 230px;
+}
+
+.img2 img{
+    height: 320px;
+}
+
+.subText2{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #C24F8A;
+}
+
+.marketTitle{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #F41486;
+}
+
+.list2{
+    font-size: 25px;
+    list-style: none;
+    margin-top: 10px;
+}
+.list2 .fa-circle-check{
+    color: #F41486;
+}
+
+/*3RA SECCION*/
+
+.thirtSec{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1E172F;
+    color: white;
+}
+
+.textPrinSec3{
+    text-align: center;
+    padding: 30px 370px;
+    font-size: 20px;
+    color: #a1a1a1;
+}
+
+.lists3{
+    display: flex;
+    gap: 30px;
+    padding: 30px 300px;
+}
+
+.lite, .standart, .ultimate{
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.precio{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+.valor{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.textValor{
+    font-size: 18px;
+}
+
+.planTitleL{
+    color: #F41486;
+    padding-bottom: 15px;
+    font-size: 20px;
+    
+}
+.planTitleS{
+    color: #1E172F;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.planTitleU{
+    color: #1E172F;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.lite ul, .standart ul, .ultimate ul{
+    color: black;
+    font-size: 18px;
+}
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.features li {
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+    font-size: 20px;
+}
+
+.features i {
+    width: 40px;
+    margin-right: 25px;
+    text-align: center;
+}
+.features .fa-star {
+    font-size: 15px;
+    color: #F41486;
+
+}
+.features .fa-check {
+    font-size: 15px;
+    color: #F41486;
+
+}
+.features .fa-xmark {
+    font-size: 15px;
+}
+.standart .fa-star, .standart .fa-check, .ultimate .fa-star, .ultimate .fa-check{
+    color: #1E172F;
+}
+
+.infoOp{
+    padding: 15px 10px;
+}
+
+.infoOp p{
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.btn-subs{
+    background-color: #F5F5F5;
+    padding: 10px 0px;
+}
+
+.btn-subs button{
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F41486;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.235);
+}
+.standart button, .ultimate button{
+    background-color: #1E172F;
+}
+
+/*PIE DE PAGINA*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+}
+footer p{
+    font-size: 20px;
+    color: #5c5c5c;
+}
+footer b{
+    color: #F41486;
+}
+.redes{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
 }
