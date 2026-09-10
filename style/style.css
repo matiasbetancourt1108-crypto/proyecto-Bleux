@@ -46,6 +46,15 @@ a {
     border-radius: 4px;
     border: none;
     color: white;
+    transition: 0.2s ease;
+    transform: scale(1, 1);
+}
+
+.download-nav:hover {
+    background: linear-gradient(to right, #8d45df, #4e65e4, #0988e3);
+    transition: 0.2s ease;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
 }
 
 /*1RA SECCION*/
@@ -120,6 +129,7 @@ p {
     transition: 0.2s ease;
     background-color: #F41486;
     color: white;
+    cursor: pointer;
 }
 
 .btn-F {
@@ -138,6 +148,7 @@ p {
     transition: 0.2s ease;
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 /*2DA SECCION*/
@@ -344,12 +355,31 @@ h2 {
     font-weight: 600;
     font-size: 15px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.235);
+
+    transform: scale(1, 1);
+    transition: 0.2s ease;
+}
+
+.btn-subs button:hover {
+    background-color: #f1248e;
+    transition: 0.2s ease;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
 }
 
 .standart button,
 .ultimate button {
     background-color: #1E172F;
 }
+
+.standart button:hover,
+.ultimate button:hover {
+    background-color: #2E2550;
+    transition: 0.2s ease;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
 
 /*PIE DE PAGINA*/
 
@@ -374,55 +404,79 @@ footer b {
     display: flex;
     gap: 10px;
 }
+.redes a{
+    color: black;
+}
+.fa-facebook-f:hover{
+    color: #1877F2;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+.fa-linkedin-in:hover{
+    color: #0A66C2;
+}
 
-@media (max-width: 768px){
+.fa-instagram:hover{
+    color: #C32AA3;
+}
 
-    header{
+@media (max-width: 768px) {
+
+    header {
         justify-content: center;
         gap: 2%;
         padding: 0;
     }
-    header img{
+
+    header img {
         width: 80%;
     }
 
     /*1RA SECCION*/
 
-    .firstSec{
+    .firstSec {
         display: flex;
         flex-direction: column;
         height: 100%;
     }
-    .info1{
+
+    .info1 {
         width: 100%;
         padding: 5%;
     }
-    h1{
+
+    h1 {
         text-align: center;
     }
-    .img1{
+
+    .img1 {
         width: 100%;
         justify-content: center;
         padding: 10% 0%;
     }
-    .img1 img{
+
+    .img1 img {
         width: 30%;
     }
-    .buttons1{
+
+    .buttons1 {
         height: 80px;
     }
 
     /*2DA SECCION*/
 
-    .dist{
+    .dist {
         flex-direction: column-reverse;
         gap: 30px;
     }
-    .img2{
+
+    .img2 {
         width: 100%;
         text-align: center;
     }
-    .info2{
+
+    .info2 {
         width: 100%;
         padding: 5%;
     }
@@ -430,64 +484,71 @@ footer b {
 
     /*3RA SECCION*/
 
-    .textPrinSec3{
+    .textPrinSec3 {
         padding: 2% 10%;
     }
-    .lists3{
+
+    .lists3 {
         flex-direction: column;
         margin: 0% 20%;
     }
 
     /*PIE DE PAGINA*/
 
-    footer{
+    footer {
         flex-direction: column;
         gap: 20px;
         padding: 30px 0;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
 
-    header{
+    header {
         flex-direction: column;
         padding: 3%;
         gap: 20px;
     }
+
     /*1RA SECCION*/
 
-    h1{
+    h1 {
         font-size: 80px;
     }
-    p{
+
+    p {
         font-size: 18px;
     }
-    .buttons1{
+
+    .buttons1 {
         height: 70px;
     }
-    .buttons1 button{
+
+    .buttons1 button {
         font-size: 15px;
     }
 
     /*2DA SECCION*/
 
-    h2{
+    h2 {
         font-size: 45px;
     }
-    .subText2{
+
+    .subText2 {
         font-size: 30px;
     }
-    .list2{
+
+    .list2 {
         font-size: 18px;
     }
-    
+
     /*3RA SECCION*/
-    .lists3{
+    .lists3 {
         margin: 0% 10%;
     }
 
     /*PIE DE PAGINA*/
-    footer p{
+    footer p {
         font-size: 15px;
     }
 }
