@@ -1,36 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
 /*HEADER*/
-header{
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1E172F;
+    padding: 0% 15%;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.nav div ul{
+
+.nav div ul {
     display: flex;
     gap: 20px;
 
     list-style: none;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: #a9a9a9;
 }
-.download-nav{
+
+.download-nav {
     height: 38px;
     width: 100px;
 
@@ -42,49 +50,64 @@ a{
 
 /*1RA SECCION*/
 
-.firstSec{
+.firstSec {
     display: flex;
     background-color: #2E2550;
     color: white;
-    
+    height: 100vh;
+    width: 100%;
+    gap: 3%;
+
 }
-h1{
+
+h1 {
     font-size: 100px;
+    line-height: 0.95;
 }
-p{
+
+p {
     font-size: 25px;
 }
-.info1{
+
+.info1 {
     width: 50%;
-    height: 761px;
-    padding-left: 200px;
-    padding-right: 20px;
-    padding-top: 200px;
-    padding-bottom: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 14%;
 }
-.img1{
+
+.img1 {
     width: 50%;
     background-image: url(../assets/images/hojasFondo.jpg);
-    padding-left: 150px;
-    padding-top: 170px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
 }
 
-.img1 img{
-    height: 430px;
+.img1 img {
+    height: 55%;
 }
 
-.buttons1{
+.buttons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
     border: 3px solid #74747470;
     border-radius: 4px;
-    padding: 10px;
-    width: 360px;
-    height: 72px;
+    padding: 2%;
+    width: 100%;
+    height: 11%;
 }
-.btn-DLN{
-    width: 170px;
-    height: 50px;
 
-    font-size: 15px;
+.btn-DLN {
+    width: 50%;
+    height: 100%;
+
+    font-size: 20px;
     border-radius: 4px;
     border: none;
     color: #F41486;
@@ -92,23 +115,26 @@ p{
     background-color: white;
     transition: 0.2s ease;
 }
-.btn-DLN:hover{
+
+.btn-DLN:hover {
     transition: 0.2s ease;
     background-color: #F41486;
     color: white;
 }
-.btn-F{
-    width: 160px;
-    height: 50px;
 
-    font-size: 15px;
+.btn-F {
+    width: 50%;
+    height: 100%;
+
+    font-size: 20px;
     border-radius: 4px;
-    background-color:#2E2550;
+    background-color: #2E2550;
     color: white;
     border-color: white;
     transition: 0.2s ease;
 }
-.btn-F:hover{
+
+.btn-F:hover {
     transition: 0.2s ease;
     background-color: white;
     color: black;
@@ -116,128 +142,142 @@ p{
 
 /*2DA SECCION*/
 
-.secondSec{
+.secondSec {
     padding-top: 40px;
     padding-bottom: 50px;
     background-color: #F1F2F7;
 }
 
-h2{
+h2 {
     font-size: 70px;
     text-align: center;
 }
-.title-secondSec{
+
+.title-secondSec {
     color: #F41486;
 }
 
-.dist{
+.dist {
     display: flex;
     align-items: center;
-    padding-top: 50px;
-    gap: 140px;
-}
-.img2{
-    width: 50%;
-    padding-left: 250px;
-}
-.info2{
-    width: 50%;
-    padding-right: 230px;
+    padding-top: 4%;
 }
 
-.img2 img{
-    height: 320px;
+.img2 {
+    width: 50%;
+    text-align: end;
 }
 
-.subText2{
+.info2 {
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.img2 img {
+    width: 80%;
+}
+
+.subText2 {
     font-size: 40px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #C24F8A;
 }
 
-.marketTitle{
+.marketTitle {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #F41486;
 }
 
-.list2{
+.list2 {
     font-size: 25px;
     list-style: none;
     margin-top: 10px;
 }
-.list2 .fa-circle-check{
+
+.list2 .fa-circle-check {
     color: #F41486;
 }
 
 /*3RA SECCION*/
 
-.thirtSec{
+.thirtSec {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #1E172F;
     color: white;
 }
 
-.textPrinSec3{
+.textPrinSec3 {
     text-align: center;
-    padding: 30px 370px;
+    padding: 2% 22%;
     font-size: 20px;
     color: #a1a1a1;
 }
 
-.lists3{
+.lists3 {
     display: flex;
+    justify-content: center;
+    margin: 0% 18%;
     gap: 30px;
-    padding: 30px 300px;
+    padding: 30px 0px;
 }
 
-.lite, .standart, .ultimate{
+.lite,
+.standart,
+.ultimate {
     border: 1px solid white;
     border-radius: 4px;
     text-align: center;
     background-color: white;
     color: black;
 }
-.precio{
+
+.precio {
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
-    padding: 20px 50px;
+    padding: 3% 8%;
 }
 
-.valor{
+.valor {
     font-size: 40px;
     font-weight: 400;
 }
 
-.textValor{
+.textValor {
     font-size: 18px;
 }
 
-.planTitleL{
+.planTitleL {
     color: #F41486;
     padding-bottom: 15px;
     font-size: 20px;
-    
+
 }
-.planTitleS{
-    color: #1E172F;
-    padding-bottom: 15px;
-    font-size: 20px;
-}
-.planTitleU{
+
+.planTitleS {
     color: #1E172F;
     padding-bottom: 15px;
     font-size: 20px;
 }
 
-.lite ul, .standart ul, .ultimate ul{
+.planTitleU {
+    color: #1E172F;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.lite ul,
+.standart ul,
+.ultimate ul {
     color: black;
     font-size: 18px;
 }
+
 .features {
     list-style: none;
     padding: 0;
@@ -256,38 +296,45 @@ h2{
     margin-right: 25px;
     text-align: center;
 }
+
 .features .fa-star {
     font-size: 15px;
     color: #F41486;
 
 }
+
 .features .fa-check {
     font-size: 15px;
     color: #F41486;
 
 }
+
 .features .fa-xmark {
     font-size: 15px;
 }
-.standart .fa-star, .standart .fa-check, .ultimate .fa-star, .ultimate .fa-check{
+
+.standart .fa-star,
+.standart .fa-check,
+.ultimate .fa-star,
+.ultimate .fa-check {
     color: #1E172F;
 }
 
-.infoOp{
+.infoOp {
     padding: 15px 10px;
 }
 
-.infoOp p{
+.infoOp p {
     font-size: 18px;
     padding: 10px 20px;
 }
 
-.btn-subs{
+.btn-subs {
     background-color: #F5F5F5;
     padding: 10px 0px;
 }
 
-.btn-subs button{
+.btn-subs button {
     height: 45px;
     width: 150px;
     border: none;
@@ -298,27 +345,149 @@ h2{
     font-size: 15px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.235);
 }
-.standart button, .ultimate button{
+
+.standart button,
+.ultimate button {
     background-color: #1E172F;
 }
 
 /*PIE DE PAGINA*/
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px 0px;
 }
-footer p{
+
+footer p {
     font-size: 20px;
     color: #5c5c5c;
 }
-footer b{
+
+footer b {
     color: #F41486;
 }
-.redes{
+
+.redes {
     font-size: 20px;
     display: flex;
     gap: 10px;
+}
+
+@media (max-width: 768px){
+
+    header{
+        justify-content: center;
+        gap: 2%;
+        padding: 0;
+    }
+    header img{
+        width: 80%;
+    }
+
+    /*1RA SECCION*/
+
+    .firstSec{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .info1{
+        width: 100%;
+        padding: 5%;
+    }
+    h1{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        justify-content: center;
+        padding: 10% 0%;
+    }
+    .img1 img{
+        width: 30%;
+    }
+    .buttons1{
+        height: 80px;
+    }
+
+    /*2DA SECCION*/
+
+    .dist{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .img2{
+        width: 100%;
+        text-align: center;
+    }
+    .info2{
+        width: 100%;
+        padding: 5%;
+    }
+
+
+    /*3RA SECCION*/
+
+    .textPrinSec3{
+        padding: 2% 10%;
+    }
+    .lists3{
+        flex-direction: column;
+        margin: 0% 20%;
+    }
+
+    /*PIE DE PAGINA*/
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 480px){
+
+    header{
+        flex-direction: column;
+        padding: 3%;
+        gap: 20px;
+    }
+    /*1RA SECCION*/
+
+    h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .buttons1{
+        height: 70px;
+    }
+    .buttons1 button{
+        font-size: 15px;
+    }
+
+    /*2DA SECCION*/
+
+    h2{
+        font-size: 45px;
+    }
+    .subText2{
+        font-size: 30px;
+    }
+    .list2{
+        font-size: 18px;
+    }
+    
+    /*3RA SECCION*/
+    .lists3{
+        margin: 0% 10%;
+    }
+
+    /*PIE DE PAGINA*/
+    footer p{
+        font-size: 15px;
+    }
 }
