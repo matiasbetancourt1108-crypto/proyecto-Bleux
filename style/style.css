@@ -420,6 +420,48 @@ footer b {
 .fa-instagram:hover{
     color: #C32AA3;
 }
+@media (max-width: 920px){
+
+    /*1RA SECCION*/
+
+    h1{
+        font-size: 80px;
+    }
+    .info1{
+        padding-left: 10%;
+    }
+    .buttons1{
+        height: 8%;
+    }
+    .buttons1 button{
+        font-size: 15px;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    /*2DA SECCION*/
+
+    h2{
+        font-size: 60px;
+    }
+    .info2{
+        padding-right: 5%;
+    }
+    .subText2{
+        font-size: 30px;
+    }
+    .list2{
+        font-size: 22px;
+    }
+
+
+    /*3RA SECCION*/
+
+    .textPrinSec3{
+        padding: 2% 10%;
+    }
+}
 
 @media (max-width: 768px) {
 
